@@ -9,3 +9,8 @@ Dokumentationen skrev jag väldigt utförlig, men jag skulle kunna lägga till m
 # 2. Ritprogram hemsida. 
 Till ritprogrammet som jag gör på programmeringen. Jag tror att jag skulle hinna göra en hemsida till det om jag börjar ganska snart.
 
+# Jag valde ritprogram hemsida.
+
+# Loggbok
+Idag 09-04-2020: Gjort början av sidan, inspirerats av andra hemsidor. 
+
