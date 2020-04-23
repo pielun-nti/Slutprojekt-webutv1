@@ -13,5 +13,7 @@ Till ritprogrammet som jag gör på programmeringen. Jag tror att jag skulle hin
 Det som jag har tänkt ha med på hemsidan är lite text om programmet, bilder på programmet och kontakt information typ och mera.
 
 # Loggbok
-09-04-2020: Gjort början av sidan, inspirerats av andra hemsidor. 
-23-04-2020: Lagt till lite text och bild, ska börja med att göra om/ändra designen nästa lektion och lägga till javascript kanske.
+# 09-04-2020
+Gjort början av sidan, inspirerats av andra hemsidor. 
+# 23-04-2020
+Lagt till lite text och bild, ska börja med att göra om/ändra designen nästa lektion och lägga till javascript kanske.
