@@ -17,3 +17,5 @@ Det som jag har tänkt ha med på hemsidan är lite text om programmet, bilder p
 Gjort början av sidan, inspirerats av andra hemsidor. 
 # 23-04-2020
 Lagt till lite text och bild, ska börja med att göra om/ändra designen nästa lektion och lägga till javascript kanske.
+
+
