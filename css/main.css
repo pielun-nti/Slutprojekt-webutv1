@@ -1,5 +1,5 @@
 body {
-    font-family: 'Karma', serif;
+    font-family: 'Balsamiq Sans', cursive;
     scroll-behavior: smooth;
 }
 
@@ -25,23 +25,24 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.1em;
     font-weight: 500;
     text-align: left;
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-weight: 300;
 }
 
 #about {
-    color: #fff;
-    background-color: #2A3950;
+    color: yellow;
+    font-style: bold;
+    background-color:green;
 }
 
 #about > h1 {
@@ -49,12 +50,18 @@ h2 {
 }
 
 #arb {
-    color: #016171;
+    color: blue;
 }
 
 #contact {
+    color:whitesmoke;
+    background-color:blue;
+}
+
+
+#showcose {
     color: #fff;
-    background-color: #016171;
+    background-color:red;
 }
 
 .navbar {
@@ -71,6 +78,10 @@ img:hover {
     opacity: 0.5;
 }
 
+.footer {
+    background-color: violet;
+}
+
 .nav {
     list-style: none;
     display: flex;
@@ -82,12 +93,12 @@ a {
 }
 
 .nav-link {
-    color: rgba(0,0,0,0.5);
+    color: aqua;
     padding: .5rem 1rem;
 }
 
 .nav-link:hover {
-    color: rgba(0,0,0,0.75);
+    color: darkblue;
 }
 
 .navbar-toggle {
@@ -117,6 +128,35 @@ a {
     .navbar {
         justify-content: left;
     }
+    #about > h2 {
+        font-size: 1.25em;
+        color: blue;
+    }
+    #showcase > h1 {
+        font-size: 2em;
+        font-style: italic;
+        color: blue;
+    }
+    #showcase > h2 {
+        font-size: 1.25em;
+        color: blue;
+    }
+    .showcase-1 > h2 {
+        font-size: 1.25em;
+        color: violet;
+    }
+    .showcase-1 > p {
+        font-size: 1em;
+        color: green;
+    }
+    .about-info > h2 {
+        font-size: 1.25em;
+        color:blue;
+    }
+    .about-info > p {
+        font-size: 1.25em;
+        color:aqua;
+    }
 }
 
 @media (max-width: 768px) {
@@ -130,13 +170,17 @@ a {
 }
 
 .btn {
-    border: 1px solid #fff;
+    border: 2px solid blue;
     border-radius: 4px;
     font-size: 1em;
     line-height: 1.4empx;
     padding: 1em;
+    color: yellow;
 }
 
 .btn:hover {
-    opacity: 0.5;
+    opacity: 0.4;
+    border: 5px solid blue;
+    font-size: 20px;
+    color: aqua;
 }
