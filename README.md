@@ -12,3 +12,6 @@ Lagt till lite text och bild, ska börja med att göra om/ändra designen nästa
 
 # 07-05-2020
 Jag har gjort lite av designen, ändrat en del text mm.
+
+# 14-05-2020
+Jag har jobbat med historiauppgiften, det är därför jag inte gjort något på slutprojektet idag. Men jag ska jobba på slutprojektet hemma på någon lovdag eller liknande samt göra dokumentationen till slutprojektet då. Är inte heller färdig med historiauppgiften än så det ska jag göra på egen tid också under veckan.
