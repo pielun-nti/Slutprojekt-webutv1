@@ -1,195 +1,197 @@
-body {
-    font-family: 'Balsamiq Sans', cursive;
+/*
+Colors
+#1ddc00 grön
+#ff0000 röd
+#0000fd blå
+#fff vit
+*/
+  body, html {
+    font-size: 100%;
+    font-family: "Helvetica", sans-serif;
     scroll-behavior: smooth;
-}
+  }
 
-.page {
-    width: 92%;
-    height: 110vh;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    padding: 0 4%;
-}
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
 
-.align-center {
-    align-items: center;
-} 
-
-.align-left {
-    align-items: flex-start;
-}
-
-.text-center {
-    text-align: center;
-}
-
-h1, h2, h3 {
-    font-family: 'Balsamiq Sans', cursive;
-}
-
-h1 {
-    font-size: 2.1em;
-    font-weight: 500;
-    text-align: left;
-}
-
-h2 {
-    font-size: 1.8em;
-    font-weight: 300;
-}
-
-#about {
-    color: yellow;
-    font-style: bold;
-    background-color:green;
-}
-
-#about > h1 {
-    font-size: 2.6em;
-}
-
-#arb {
-    color: blue;
-}
-
-#contact {
-    color:whitesmoke;
-    background-color:blue;
-}
-
-
-#showcose {
-    color: #fff;
-    background-color:red;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    flex-grow: 1;
-    justify-content: end;
-    height: 2rem;
-    position: fixed;
-}
-
-img:hover {
-    opacity: 0.5;
-}
-
-.footer {
-    background-color: violet;
-}
-
-.nav {
+  nav ul {
     list-style: none;
-    display: flex;
-    flex-direction: row;
-}
+    padding: 0;
+    background: #0000fd;
+  }
 
-a {
+  nav ul li a {
+    color: #ddd;
     text-decoration: none;
-}
+    padding: 0.8rem 1rem;
+    display: block;
+    line-height: 1;
+  }
 
-.nav-link {
-    color: aqua;
-    padding: .5rem 1rem;
-}
+  nav ul li {
+    border-bottom: 1px dotted #ddd;
+  }
 
-.nav-link:hover {
-    color: darkblue;
-}
+  nav div:first-child {
+    background: #0000fd;
+  }
 
-.navbar-toggle {
-    border: none;
-    background-color: transparent;
-}
+  nav div:first-child h1 {
+  line-height: 0;
+  padding: .8rem 0rem;
+  text-align: center;
+  }
 
-.collapse {
-    display: block !important;
-}
+  nav div:first-child img {
+    /*filter: contrast(0); Detta gör så att kontrast av färgen blir gråaktig och det vill jag inte ha*/
+  }
 
-.navbar-collapse {
-    display: flex;
-    flex-basis: 100%;
-}
+  nav div:first-child h1, nav ul {
+    margin: 0;
+  }
 
-@media (min-width: 768px) {
-    #about > h1 {
-        font-size: 3.4em;
+  /*
+  För större skärmar
+  */
+  @media only screen and (min-width: 30em) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      background-color: #0000fd;
+      align-items: center;
     }
-    .navbar-collapse {
-        display: flex;
+    nav ul {
+      display: flex;
+      align-items: center;
+      background: none;
+      flex-wrap: wrap;
     }
-    .navbar-toggle {
-        display: none;
+    nav ul li {
+      border-bottom: none;
+      flex: 1 0 auto;
+      position: relative;
     }
-    .navbar {
-        justify-content: left;
+    nav div:first-child h1 {
+      padding: 0;
+      margin: 0 1rem;
     }
-    #about > h2 {
-        font-size: 1.25em;
-        color: blue;
+    nav div:first-child img{
+      height: 40px;
     }
-    #showcase > h1 {
-        font-size: 2em;
-        font-style: italic;
-        color: blue;
-    }
-    #showcase > h2 {
-        font-size: 1.25em;
-        color: blue;
-    }
-    .showcase-1 > h2 {
-        font-size: 1.25em;
-        color: violet;
-    }
-    .showcase-1 > p {
-        font-size: 1em;
-        color: green;
-    }
-    .about-info > h2 {
-        font-size: 1.25em;
-        color:blue;
-    }
-    .about-info > p {
-        font-size: 1.25em;
-        color:aqua;
-    }
-    .contact-1 > a {
-        font-size: 1.25em;
-        color:aqua;
-    }
-    #contact > h1 {
-        font-size: 2em;
-        font-style: italic;
-        color: red;
-    }
-}
-
-@media (max-width: 768px) {
-    .navbar-collapse {
-        display: none;
+    nav ul li a {
+      padding: 1.2rem 1rem; 
     }
 
-    h2 {
-        font-size: 1.2em;
+    /*
+    Hover effect
+    */
+    nav ul li a::before, nav ul li a::after {
+      content: "";
+      width: 0%;
+      height: 2px;
+      background: #ff0000;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transition: .2s width ease-in-out;
     }
+    nav ul li a::before {
+      left: 0;
+    }
+    nav ul li a:hover::after, nav ul li a:hover::before {
+      width: 50%;
+    }
+    .container {
+      padding: 20px;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .btn {
+      color: white;
+      background-color: #1ddc00;
+      border-radius: 5px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      height: 50px;
+      width: 250px;
+      font-size: 20px;
+      color: #fff;
+    }
+    .btn:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .about-info {
+      align-items: center;
+      align-content: center;
+      text-align: center;
+    }
+    .nav-link {
+      color: #fff;
+    }
+    .btn-other {
+      color: white;
+      background-color: #0000fd;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      border-radius: 5px;
+      height: 50px;
+      width: 250px;
+      font-size: 20px;
+      color: #fff;
+      transition-duration: 0.4s;
+    }
+    .btn-other:hover {
+      background-color: #1ddc00;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      color: #fff;
+    }
+  }
+
+
+.container {
+  padding: 5px;
 }
 
 .btn {
-    border: 2px solid blue;
-    border-radius: 4px;
-    font-size: 1em;
-    line-height: 1.4empx;
-    padding: 1em;
-    color: yellow;
+  color: white;
+  background-color: #1ddc00;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+  color: #fff;
+}
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.nav-link {
+  color: #fff;
 }
 
-.btn:hover {
-    opacity: 0.4;
-    border: 5px solid blue;
-    font-size: 20px;
-    color: aqua;
+.nav-link:hover {
+  
+}
+
+.btn-other {
+  color: white;
+  background-color: #0000fd;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+  color: #fff;
+  transition-duration: 0.4s;
+}
+.btn-other:hover {
+  background-color: #1ddc00;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: #fff;
+}
+video {
+  width: 50%;
+  max-height: 50%;
 }

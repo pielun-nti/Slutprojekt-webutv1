@@ -1,115 +1,117 @@
-
 <!DOCTYPE html>
-<html lang="sv">
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paintprogram</title>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">    
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="css/reset.css">
-</head>
+    <title>Paint Program</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <nav>
+    <div>
+      <h1><a href="#"><img src="media/logo.png" alt="Logga"></a></h1>
+    </div>
+      <ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#showcase">Showcase</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#feedback">Feedback</a></li>
+</ul>
+</nav>
+<main class="container">
+    <section class="align-center" id="about">
+        <h1 class="text-center">Pierres Paint program</h1>
 
-<body>
-    <nav class="navbar">
-        <div class="navbar-collapse">
-            <ul class="nav">
-                <li><a href="#" class="nav-link">Home</a></li>
-                <li><a class="nav-link" href="#about">About</a></li>
-                <li><a href="#showcase" class="nav-link">Showcase</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
+        <h2 class="text-center">Min hemsida till mitt ritprogram</h2>
+        <div class="about-info">
+          <br>
+          <br>
+            <h1 class="text-center">Ritprogrammets bra funktioner:</h1>
+            <p class="text-center">
+                - Du kan lätt rita med vilka färger du vill.
+                <br>
+                - Du kan lätt välja vilka storlekar du vill rita med.
+                <br>
+                - Du kan lätt sudda bort det du ritat.
+                <br>
+                - Du kan lätt ändra frames per second.
+                <br>
+                - Du kan lätt ändra updates per second.
+                <br>
+                - Du kan lätt ändra bakgrundsfärg.
+                <br>
+                - Du kan lätt ändra skalan på ritningen.
+                <br>
+                - Programmet sparar automatiskt senaste färgen och färgstorleken och mera som du använde sist,
+                <br>
+                så att de är automatiskt där nästa gång du startar programmet.
+                <br>
+                - Du kan lätt skapa en ny rityta att rita på.
+                <br>
+                - Du kan lätt rita med tangentbordet och musen.
+                <br>
+                - Och många fler användbara funktioner!
+            </p>
+            <button class="btn" onclick="showcase()">Showcase</button>
+
         </div>
-        <button class="navbar-toggle">
-            <i class="material-icons">
-                menu
-            </i>
-        </button>
-    </nav>
-    <main class="container">
-        <section class="page align-center" id="about">
-            <h1>Paint program</h1>
 
-            <h2 class="text-center">Min hemsida till mitt ritprogram</h2>
-            <div class="about-info">
-                <h2 class="text-center">Några Av Programmets Funktioner:</h2>
-                <br>
-                <p class="text-center">
-                    1. Du kan lätt rita med vilka färger du vill.
-                    <br>
-                    2. Du kan lätt välja vilka storlekar du vill rita med.
-                    <br>
-                    3. Du kan lätt sudda bort det du ritat.
-                    <br>
-                    4. Du kan lätt ändra frames per second.
-                    <br>
-                    5. Du kan lätt ändra updates per second.
-                    <br>
-                    6. Du kan lätt ändra bakgrundsfärg.
-                    <br>
-                    7. Du kan lätt ändra skalan på ritningen.
-                    <br>
-                    8. Programmet sparar automatiskt senaste färgen och färgstorleken och mera som du använde sist,
-                    <br>
-                    så att de är automatiskt där nästa gång du startar programmet.
-                    <br>
-                    9. Du kan lätt skapa en ny rityta att rita på.
-                    <br>
-                    10. Du kan lätt rita med tangentbordet och musen.
-                    <br>
-                    Och mycket mer!
-                </p>
+    </section>
+    <section class="page align-left" id="showcase">
+      <br>
+        <h1>Showcase</h1>
 
-            </div>
-            <!-- I will change the design of the page later as well as add more javascript-->
-            <!-- Lägg till logga och kanske animation/video från dig skapande-->
-            <a class="btn" href="#showcase">Showcase</a>
-        </section>
-        <section class="page align-left" id="showcase">
-            <h1>Showcase</h1>
+        <div>
+            <h2>Videos</h2>
+            <p>Detta är bara en video.
+            </p>
+            <video controls>
+              <source src="media/showcase.mp4" type="video/mp4">
+            Din webbläsare stödjer inte video tags.
+            </video> 
+            <br>
 
-            <div class="showcase-1">
-                <br>
-                <h2>Video</h2>
-                <br>
-                <p>Detta är bara en video.
-                </p>
-                <br>
-                <img src="img/sc3.png" alt="sc-video-1" width=50%>
+        <div>
+            <br>
+            <h2>Bilder</h2>
+            <br>
+            <p>Detta är bara en bild.
+            </p>
+            <br>
+            <img src="media/sc1.png" alt="sc-pic-1" width=50%>
 
-            <div class="showcase-1">
-                <br>
-                <h2>Picture</h2>
-                <br>
-                <p>This is just a picture
-                </p>
-                <br>
-                <img src="img/sc1.png" alt="sc-pic-1" width=50%>
-
-            </div>
+        </div>
 
 
-        </section>
-        <section class="page align-left" id="contact">
-            <h1>Kontakt Information</h1>
+    </section>
+    <section class="page align-left" id="contact">
+        <h1>Kontakt Information</h1>
 
-            <div class="contact-1">
-                <a class="nav-link" href="mailto:pierre.lundstrom@elev.ga.ntig.se">Email</a>
-                <a class="nav-link" href="https://github.com/pielun-nti/">Github</a>
-            </div>
+        <div>
+          <p>Du kan kontakta mig på följande länkar.</p>
+          <button class="btn-other"><a class="nav-link" href="mailto:pierre.lundstrom@elev.ga.ntig.se">Email</a>
+            <button class="btn-other"><a class="nav-link" href="https://github.com/pielun-nti/">Github</a>
+        </div>
 
 
-        </section>
+    </section>
+
+    <section class="page align-left" id="feedback">
+      <h1>Feedback</h1>
+      
+      <div>
+        <p>Du kan ge feedback antingen via email eller github</p>
+          <button class="btn-other"><a class="nav-link" href="mailto:pierre.lundstrom@elev.ga.ntig.se">Email</a></button>
+          <button class="btn-other"><a class="nav-link" href="https://github.com/pielun-nti/">Github</a></button>
+      </div>
+
+
+  </section>
 
 
 
-    </main>
-    <footer class="footer">
-        <h1>Detta är footern</h1> 
-    </footer>
-    <script src="js/main.js"></script>
-</body>
-
+</main>
+  </body>
 </html>

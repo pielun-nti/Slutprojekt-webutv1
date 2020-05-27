@@ -15,3 +15,6 @@ Jag har gjort lite av designen, ändrat en del text mm.
 
 # 14-05-2020
 Jag har jobbat med historiauppgiften, det är därför jag inte gjort något på slutprojektet idag. Men jag ska jobba på slutprojektet hemma på någon lovdag eller liknande samt göra dokumentationen till slutprojektet då. Är inte heller färdig med historiauppgiften än så det ska jag göra på egen tid också under veckan.
+
+# 27-05-2020
+Jobbat mycket hemma med hemsidan idag och igår. Jag la mycket tid på att få till navigationen så att den blir responsiv och rymmer loggan. Jag har tänkt på vilka färger jag använder också och hur dom passar tillsammans. Sidan är nu helt responsiv även navigationen och jag har lagt till en hover effekt på navigationen som jag tycker ser cool ut. Jag har lagt till en skugga hover effekt på showcase knappen och andra hover effects på de andra knapparna. Jag har lagt till bilder och en video. Jag har även tänkt på tillgänglighet exempelvis att använda h1 elements som rubriker osv. 
