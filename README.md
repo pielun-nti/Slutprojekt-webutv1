@@ -6,6 +6,17 @@ Jag har valt att göra en hemsida till det jag gjort på programmering 1 kursen.
 
 Länk till hemsidan: https://pielun-nti.github.io/Slutprojekt-webutv1/index.html
 
+# Dokumentation
+Jag väljer att göra dokumentationen av testerna kortare eftersom jag gjorde den utförligt på CV uppgiften och känner att jag inte orkar göra lika utförligt denna gång.
+Hemsidan fungerar som jag hade tänkt och den är responsiv.
+Sidan använder färger som passar ihop till de andra färgerna.
+Texten är centrerad och jag bytte den vita bakgrundsfärgen till en ton av vit efter tips från läraren och det blev bra.
+Jag har tänkt en del på tillgänglighet genom att använda h1 som rubriker och så.
+Navigationen och knapparna har hover effects som jag tyckte passade bra.
+Min arbetsprocess var så att jag började med att sätta dit texten som jag tänkte ha på sidan och därefter började jag designa sidan.
+Jag blev nöjd med hemsidan men jag skulle kunna förbättra den om jag hade mer tid.
+
+
 # Loggbok
 # 09-04-2020
 Gjort början av sidan samt inspirerats av andra hemsidor. 
