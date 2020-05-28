@@ -8,6 +8,24 @@ Länk till hemsidan: https://pielun-nti.github.io/Slutprojekt-webutv1/index.html
 
 # Dokumentation
 Jag väljer att göra dokumentationen av testerna kortare eftersom jag gjorde den utförligt på CV uppgiften och känner att jag inte orkar göra lika utförligt denna gång.
+# Post mortem
+# 1. Inledning
+Syfte/mål med att göra denna hemsida är att bli bättre på att designa hemsidor.
+Min inspiration är att förbättra CVt som jag gjorde innan utifrån feedback som jag fick.
+# 1.1 Bakgrund
+Jag har skrivit programmeringskoden i Visual Studio Code och där skrev jag html för själva grunden av sidan, css för designen och javascript för vissa knapp funktioner.
+Jag planerade att göra en fungerade och bra designad sida och jag har en skiss där jag har loggan på vänster sida och navigationen på höger sida och texten ganska centrerad och den försökte jag följa och det gick bra ändå. 
+Jag planerade även genom att skriva kommentarer i koden vad jag ska lägga till härnäst och jag tog bort kommentaren när det var färdigt.
+Min loggbok här under visar vad jag gjorde varje lektion.
+Min arbetsprocess var så att jag började med att sätta dit texten som jag tänkte ha på sidan och därefter började jag designa sidan.
+# 1.2 Positiva erfarenheter
+Jag tycker att det mesta har gått bra och jag tyckte det var kul att bli bättre på att designa hemsidor.
+Sidan fungerar som den ska och har en bra design tycker jag.
+
+# 1.3 Negativa erfarenheter
+Inget negativt med arbetet.
+
+# 1.4 Sammanfattning
 Hemsidan fungerar som jag hade tänkt och den är responsiv.
 Sidan använder färger som passar ihop till de andra färgerna.
 Texten är centrerad och jag bytte den vita bakgrundsfärgen till en ton av vit efter tips från läraren och det blev bra.
@@ -15,7 +33,6 @@ Jag har tänkt en del på tillgänglighet genom att använda h1 som rubriker och
 Navigationen och knapparna har hover effects som jag tyckte passade bra.
 Min arbetsprocess var så att jag började med att sätta dit texten som jag tänkte ha på sidan och därefter började jag designa sidan.
 Jag blev nöjd med hemsidan men jag skulle kunna förbättra den om jag hade mer tid.
-
 
 # Loggbok
 # 09-04-2020
